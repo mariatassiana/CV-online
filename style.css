@@ -1,0 +1,40 @@
+body{
+    height: 1000px;
+    color: #666462;
+}
+.general{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.margin{
+    height: 100%;
+    width: 30%;
+    background-color: #d1958f;
+
+}
+.perfil{
+    height: 35%;
+    width: 100%;
+}
+.photo{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    height: 100%;
+    width: 55%;
+    background-color: rgb(227, 210, 210);
+    flex-direction: column;
+    margin-left: 5%;
+    flex-wrap: wrap;
+}
+.contact{
+    margin-left: 3%;
+}
+
