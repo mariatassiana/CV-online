@@ -1,14 +1,18 @@
 body{
+    display: flex;
     height: 1000px;
     color: #666462;
+    font-family: 'Times New Roman', Times, serif;
 }
-.general{
+.container{
+    position: relative;
     display: flex;
     height: 100%;
     width: 80%;
     margin: auto;
     flex-direction: row;
     flex-wrap: wrap;
+    box-shadow: 0 35px 55px rgb(0,0,0,0.1);
 }
 .margin{
     height: 100%;
@@ -33,6 +37,8 @@ body{
     flex-direction: column;
     margin-left: 5%;
     flex-wrap: wrap;
+    border-bottom: 1px solid rgb(255,255,255,0.2);
+    
 }
 .contact{
     margin-left: 3%;
